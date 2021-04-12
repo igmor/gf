@@ -8,11 +8,11 @@ import sys
 
 class Form:
     def __init__(self):
-        self.url = "https://docs.google.com/forms/u/2/d/e/1FAIpQLSdtsYuS1F7k5EyC6LAtPPRLMBkB_0lm8pded7rwQb61kU6XOg/formResponse"
-        self.firstName = "Solomea"
-        self.lastName = "Morozova"
-        self.signedPerson = "Igor Morozov"
-        self.school = "Oxford Elementary"
+        self.url = "https://docs.google.com/forms/u/2/d/e/FORM_ID/formResponse"
+        self.firstName = "First"
+        self.lastName = "Last"
+        self.signedPerson = "First Last"
+        self.school = "School"
         self.submission = {'entry.1835589034': self.firstName,
                            'entry.549753788': self.lastName,
                            'entry.709320111': self.school,
